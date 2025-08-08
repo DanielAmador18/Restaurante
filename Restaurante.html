@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Restaurante Chino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header>
+            <img src="imgnes/Logo.png" alt="Logo Restaurante Chino El Dragón Dorado" class="logo">
+        
+        <h1>Restaurante "El Dragón rojo"</h1>
+        <p>¡Ordene y recoja!</p>
+    </header>
+
+    <div class="menu-principal">
+        <div class="menu-bar" id="menuBar">
+            <i class="fas fa-angle-rigth" id="btnMenuClose"></i>
+
+            <nav class="enlaces" id="enlaces">
+                <ul>
+                    <li><a href="Servicios.html" class="historia-link">SERVICIOS</a></li> <!-- NUEVO ENLACE -->
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+
+    </div>
+
+    <section class="menu">
+        <h2>Menú</h2>
+        <div class="menu-container">
+            <div class="menu-category">
+                <h3>Entradas</h3>
+                <ul>
+                    <li>Rollitos de Camaron - $45.00</li>
+                    <li>Alitas de Pollo agridulces - $50.00</li>
+                    <li>Camarones empanizados - $30.00</li>
+                </ul>
+            </div>
+    
+            <div class="menu-category">
+                <h3>Platos Principales</h3>
+                <ul>
+                    <li>Arroz Frito con Pollo - $65.00</li>
+                    <li>Pollo agridulce - $85.00</li>
+                    <li>Cerdo agridulce - $85.00</li>
+                    <li>Chop Suey - $110.00</li>
+                </ul>
+            </div>
+    
+            <div class="menu-category">
+                <h3>Postres</h3>
+                <ul>
+                    <li>Helado Frito - $40.00</li>
+                    <li>Pastel de Chocolate - $30.00</li>
+                    <li>Choco flan - $35.00</li>
+                    <li>Fresas con crema - $35.00</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Sección de Platillos Populares -->
+    <section class="popular-dishes">
+        <h2>Platillos Populares</h2>
+        <div class="carousel">
+            <div class="carousel-item">
+                <img src="imgnes/Arroz.png" alt="Platillo 1">
+                <p>Arroz Frito con Pollo</p>
+            </div>
+            <div class="carousel-item">
+                <img src="imgnes/Polloagridulce.png" alt="Platillo 2">
+                <p>Pollo agridulce</p>
+            </div>
+            <div class="carousel-item">
+                <img src="imgnes/Cerdoagridulce.png" alt="Platillo 3">
+                <p>Cerdo Agridulce</p>
+            </div>
+        </div>
+    </section>
+
+<section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna duda, no dudes en ponerte en contacto con nosotros.</p>
+      
+        <form action="enviar_mensaje.php" method="post">
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+      
+          <div>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+          </div>
+      
+          <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          </div>
+      
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      
+        <h3>Para pedidos a domicilio:</h3>
+        <ul>
+          <li>Teléfono: +52 672 118 5247</li>
+          <li>Correo electrónico: ElDragonRojo@gmail.com</li>
+          <li>Dirección: fco.villa, 356, Navolato, Sinaloa</li>
+        </ul>
+      </section>
+      
+    <footer>
+        <p>© 2025 Restaurante Chino "El Dragón Rojo"</p>
+    </footer>
+
+    
+</body>
+</html>
