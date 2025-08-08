@@ -11,8 +11,9 @@ Simple website with minimalist design that manages information about a restauran
 - HTML5
 - CSS
 
+<img width="1273" height="618" alt="Reference 1" src="https://github.com/user-attachments/assets/b97eb880-c4ef-45f7-b974-a0a469a14a2d" />
 
-<img width="1249" height="653" alt="Reference 1" src="https://github.com/user-attachments/assets/eeac471e-68d4-4aae-848f-7bf8be9fb447" />
+
 
 <img width="1263" height="614" alt="Reference 2" src="https://github.com/user-attachments/assets/0d7766d1-bbff-4de6-8dff-d2eed87dbb10" />
 
